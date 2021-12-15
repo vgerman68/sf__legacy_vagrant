@@ -5,8 +5,8 @@ using Vagrant to run legacy PostgreSQL 8.4 code
 
 # Install
 1. Create a new virtmachine directory
-2. Copy *.box file to virtmachine directory
-3. vagrant init
-4. Copy a private_key file to virtmachine/.vagrant/machines/default/virtualbox/private_key
-5. sudo chown vagrant virtmachine/.vagrant/machines/default/virtualbox/private_key
-6. vagrant up
+2. Copy *.box and Vagrantfile files to virtmachine directory
+3. Run command: vagrant init
+4. Copy a private_key file to virtmachine/.vagrant/machines/default/virtualbox/private_key distanation
+5. Run command: sudo chown vagrant virtmachine/.vagrant/machines/default/virtualbox/private_key
+6. Run command: vagrant up
