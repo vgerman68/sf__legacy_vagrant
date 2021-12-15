@@ -3,7 +3,7 @@ Task B6.5 (HW-03) B6.5.2.
 
 using Vagrant to run legacy PostgreSQL 8.4 code
 
-# Insatll
+# Install
 1. Create a new virtmachine directory
 2. Copy *.box file to virtmachine directory
 3. vagrant init
